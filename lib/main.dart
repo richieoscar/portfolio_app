@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +17,7 @@ class Portfolio extends StatelessWidget {
         body: Padding(
           padding: EdgeInsets.fromLTRB(20, 30, 20, 0.0),
           child:
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Center(
               child: CircleAvatar(
                 backgroundImage: AssetImage('assets/image.JPG'),
